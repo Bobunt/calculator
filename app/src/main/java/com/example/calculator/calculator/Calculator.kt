@@ -30,7 +30,7 @@ import com.example.calculator.elements.yellowButtonColors
 
 @Composable
 fun Calculator(
-    modifier: Modifier = Modifier,
+    modifier: Modifier = Modifier
 ) {
     val viewModel: CalculatorViewModel = viewModel()
 
